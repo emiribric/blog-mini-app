@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Header from './component/header/header.component';
 import HomePage from './pages/home/home.component';
@@ -9,10 +9,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <HashRouter>
-          <Route exact path='/blog-mini-app' element={ <HomePage />} />
-          <Route path='/about-us' element={ <AboutUsPage />} />
-        </HashRouter>
+        <Route exact path='/blog-mini-app' element={ <HomePage />} />
+        <Route path='/blog-mini-app/about-us' element={ <AboutUsPage />} />
       </Routes>
     </>
   );

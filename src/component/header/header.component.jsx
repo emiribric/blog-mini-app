@@ -20,16 +20,16 @@ const Header = () => {
                 <Logo />
                 
                 <nav className='tm-nav' id='tm-nav'>            
-                    <NavLink to='blog-mini-app' className='tm-nav-link'>
+                    <NavLink to='/blog-mini-app' className='tm-nav-link'>
                         <i className='fas fa-house-user'></i>Blog Home
                     </NavLink>
-                    <NavLink to='/blog' className='tm-nav-link'>
+                    <NavLink to='/blog-mini-app/blog' className='tm-nav-link'>
                         <i className='far fa-edit'></i>Single Blog
                     </NavLink>
-                    <NavLink to='about-us/' className='tm-nav-link'>
+                    <NavLink to='/blog-mini-app/about-us' className='tm-nav-link'>
                         <i className='fas fa-info-circle'></i>About Us
                     </NavLink>
-                    <NavLink to='contact-us/' className='tm-nav-link'>
+                    <NavLink to='/blog-mini-app/contact-us' className='tm-nav-link'>
                         <i className='far fa-envelope'></i>Contact Us
                     </NavLink>
                 </nav>
