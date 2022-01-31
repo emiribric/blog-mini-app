@@ -9,8 +9,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route exact path='/blog-mini-app' element={ <HomePage />} />
-        <Route path='/blog-mini-app/about-us' element={ <AboutUsPage />} />
+        <Route exact path='/' element={ <HomePage />} />
+        <Route path='/about-us' element={ <AboutUsPage />} />
       </Routes>
     </>
   );
