@@ -20,7 +20,7 @@ const Header = () => {
                 <Logo />
                 
                 <nav className='tm-nav' id='tm-nav'>            
-                    <NavLink to='/' className='tm-nav-link'>
+                    <NavLink to='blog-mini-app' className='tm-nav-link'>
                         <i className='fas fa-house-user'></i>Blog Home
                     </NavLink>
                     <NavLink to='/blog' className='tm-nav-link'>
