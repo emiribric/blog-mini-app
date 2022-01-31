@@ -1,0 +1,19 @@
+.tm-site-header {
+    margin-top: 50px;
+    margin-bottom: 115px;
+}
+
+.tm-site-logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: white;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px #343a40;
+}
+
+.tm-site-logo i { 
+    color: #fd7e14; 
+}
